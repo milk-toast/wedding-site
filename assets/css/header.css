@@ -1,0 +1,165 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'marian-roman', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: marian-roman;
+    src: url(../fonts/marian-1757-roman.otf)
+}
+
+@font-face {
+    font-family: marian-italic;
+    src: url(../fonts/marian-1757-italic.otf)
+}
+
+nav {
+    z-index: 4;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #F7F2E8;
+    padding-bottom: 0px!important;
+}
+
+nav.myNavbar {
+    padding-top: 15px;
+}
+
+nav .navbar-border-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	border-bottom: solid 1px #6D6D6D;
+}
+
+nav .nav-logo {
+	font-size: 50px;
+	color: #090909!important;
+	text-decoration: none!important;
+	font-family: marian-italic;
+}
+
+nav .myNavbarList a {
+    font-size: 20px;
+    color: #090909!important;
+    text-decoration: none!important;
+    font-family: marian-roman;
+    padding-bottom: 0px!important;
+    padding-left: 50px!important;
+}
+
+nav .myNavbarToggler,
+nav .myNavbarToggler:focus {
+    color: #422e2b!important;
+    border: 0;
+    outline: none
+}
+
+nav .myNavbarTogglerIcon {
+    width: 40px;
+    height: auto;
+    position: relative;
+    top: -2px
+}
+
+.myNavbarTogglerClose {
+    display: none
+}
+
+.navbarOverlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #9ADCD5;
+    z-index: 3;
+    display: none
+}
+
+/*.navbar-helper {
+	margin-bottom: 98px;
+}*/
+
+/* Mobile */
+@media (max-width: 576px) {
+    nav .myNavbarBrand {
+        padding-left: 20px!important
+    }
+    nav .myNavbarToggler {
+    	margin-left: auto!important;
+    }
+    nav .myNavbarList a {
+        margin: 0!important;
+        font-size: 40px;
+        text-align: center;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 20px
+    }
+    nav .navbarArrows {
+        display: inline-block;
+        float: right
+    }
+    nav .navbarBar {
+        width: 100%;
+        height: 5px;
+        z-index: 5;
+        background-color: #F6F6F6;
+        position: fixed;
+        top: 100px;
+        left: 0
+    }
+}
+
+/* Tablet Landscape / Small Desktop */
+@media (min-width: 768px) {
+    nav .myNavbarList a {
+        margin: 0!important;
+        padding-top: 0
+    }
+    nav .myNavbarList a:first-child {
+        padding-left: 0!important
+    }
+    nav .myNavbarList a:last-child {
+        padding-right: 5px!important
+    }
+    nav .myNavbarBrand {
+        padding-left: 0!important
+    }
+    nav .navbarArrows,
+    nav .navbarBar {
+        display: none
+    }
+}

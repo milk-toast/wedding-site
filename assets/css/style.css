@@ -1,0 +1,127 @@
+html,
+body {
+    width: 100%;
+    height: calc(100% - 138px);
+}
+
+body {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #F7F2E8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'marian-roman', sans-serif;
+    letter-spacing: -0.5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: marian-roman;
+    src: url(../fonts/marian-1757-roman.otf)
+}
+
+@font-face {
+    font-family: marian-italic;
+    src: url(../fonts/marian-1757-italic.otf)
+}
+
+img {
+    width:100%;
+    height: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.header-spacer {
+    height: 138px;
+}
+
+.home-hero {
+    margin-top: 138px;
+}
+
+.row-vertical-center {
+    position: relative;
+}
+
+.home-hero-content {
+    position: absolute;
+    font-size: 38px!important;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-hero-decoration {
+    width: 100%;
+    text-align: center;
+    line-height: 130px;
+}
+
+.home-hero-content {
+
+}
+
+.info-row {
+    margin: 50px 0 150px 0;
+}
+
+.info-block {
+    text-align: center;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+}
+
+h2.info-header {
+    font-family: marian-italic;
+    color: #090909;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p.info-row-label {
+    font-size: 20px;
+    color: #090909;
+    margin-bottom: 5px;
+}
+
+p.info-copy {
+    font-size: 20px;
+    color: #090909;
+    margin-bottom: 20px;
+}
+
+p.info-copy-narrow {
+    padding: 0 50px;
+}
+
+.info-button {
+    background-color: #F7E8C8;
+    color: #090909;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 60%;
+    height: 40px;
+}

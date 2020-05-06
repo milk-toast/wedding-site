@@ -125,3 +125,19 @@ p.info-copy-narrow {
     width: 60%;
     height: 40px;
 }
+
+.rsvp-iframe {
+    margin-bottom: -135px;
+    border: none;
+}
+
+.block {
+    background-color: #F7F2E8;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+}
+
+#footer {
+    display: none;
+}

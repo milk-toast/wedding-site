@@ -24,28 +24,27 @@
 <!-- @start navbar -->
 <nav class="navbar fixed-top navbar-expand-sm myNavbar">
 	<div class="container myNavbarContainer">
-		<div class="navbar-border-container">
-			<div class="navbar-logo-container">
-				<a class="nav-logo" href="index.html">A&G</a>
-			</div>
-			<button class="navbar-toggler myNavbarToggler myNavbarTogglerOpen" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<img src="assets/img/hamburger.svg" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
-		  	</button>
-		  	<button class="navbar-toggler myNavbarToggler myNavbarTogglerClose" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<img src="assets/img/close.svg" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
-		  	</button>
-		  	<div class="collapse navbar-collapse myNavbarCollapse" id="navbarNavAltMarkup">
-		    	<div class="navbar-nav ml-auto myNavbarList">
-			      	<a class="nav-item nav-link" href="schedule.html">Schedule</a>
-			      	<a class="nav-item nav-link" href="hoteltransport.html">Hotel & Transportation</a>
-			      	<a class="nav-item nav-link" href="gifts.html">Gifts</a>
-			      	<a class="nav-item nav-link" href="rsvp.html">RSVP</a>
-		    	</div>
-		  	</div>
+		<div class="navbar-logo-container myNavbarTogglerOpen">
+			<a class="nav-logo" href="index.html">A&G</a>
 		</div>
+		<button class="navbar-toggler myNavbarToggler myNavbarTogglerOpen" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<img src="assets/img/hamburger.svg" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
+	  	</button>
+	  	<button class="navbar-toggler myNavbarToggler myNavbarTogglerClose" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<img src="assets/img/close.svg" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
+	  	</button>
+	  	<div class="collapse navbar-collapse myNavbarCollapse" id="navbarNavAltMarkup">
+	    	<div class="navbar-nav ml-auto myNavbarList">
+		      	<a class="nav-item nav-link" href="schedule.html">Schedule</a>
+		      	<a class="nav-item nav-link" href="hoteltransport.html">Hotel & Transportation</a>
+	      		<a class="nav-item nav-link" href="gifts.html">Gifts</a>
+		      	<a class="nav-item nav-link" href="rsvp.html">RSVP</a>
+	    	</div>
+	  	</div>
 	</div>
 </nav>
 <div class="navbarOverlay"></div>
+<div class="navbar-helper"></div>
 <!-- @end navbar -->
 	
 <div class="header-spacer"></div>
@@ -83,5 +82,12 @@
 		</div>
 	</div>
 </section>
+
+<!-- jquery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<!-- personal js files -->
+<script  src="assets/js/nav.js"></script>
 
 </body>
